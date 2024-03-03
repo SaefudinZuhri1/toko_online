@@ -442,7 +442,7 @@ include 'koneksi/koneksi.php';
                   <img src="../assets/images/dashboard/top-header5.png" alt="header" class="theme-color-pink-img img-fluid w-100 h-100 animated-scaleX">
               </div>
           </div>         
-           <!-- Nav Header Component End -->
+          <!-- Nav Header Component End -->
         <!--Nav End-->
 
         <!-- Content Start -->

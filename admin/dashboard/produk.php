@@ -31,6 +31,7 @@
                             <th class="text-center">Harga Produk</th>
                             <th class="text-center">Berat Produk</th>
                             <th class="text-center">Foto Produk</th>
+                            <th class="text-center">Deskripsi Produk</th>
                             <th class="text-center">Aksi</th>                           
                             </tr>
                         </thead>
@@ -45,6 +46,7 @@
                                 <td class="text-center" width="40">Rp<?php echo number_format($value['harga_produk'], 0, '.', '.'); ?></td>
                                 <td class="text-center" width="30"><?php echo $value['berat_produk']; ?></td>
                                 <td class="text-center" width="50"><img width="100" src="../assets/images/foto_produk/<?php echo $value['foto_produk']; ?>"></td>
+                                <td class="text-center" width="30"><?php echo $value['deskripsi_produk']; ?></td>
                                 <td class="text-center" width="50">
                                     <a href="index.php?halaman=edit_produk&id=<?php echo $value['id_produk']; ?> " class="btn btn-sm btn-primary">Edit</a>
                                     <a href="" class="btn btn-sm btn-danger">Hapus</a>
